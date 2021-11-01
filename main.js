@@ -1,30 +1,7 @@
-// DESAFIO CLASE 5 - OBJETOS
+// DESAFIO CLASE 8 - DOM
 
-// Algoritmo que según el ingreso de datos que se solicita al usuario determina si puede adoptar o no un gato de la asociacion 
+// Algoritmo que según el ingreso de datos que realiza el usuario en el html determina si puede adoptar o no un gato de la asociacion y le devuelve un mensaje en la página
 
-
-let adoptante;
-let desestimado;
-
-class aprobados {
-    constructor(nombre, edad, zonaDomicilio, protecciones, empleo){
-        this.nombre = nombre;
-        this.edad = edad;
-        this.zonaDomicilio = zonaDomicilio;
-        this.protecciones = protecciones;
-        this.empleo = empleo;
-    }
-}
-
-class rechazados {
-    constructor(nombre, edad, zonaDomicilio, protecciones, empleo){
-        this.nombre = nombre;
-        this.edad = edad;
-        this.zonaDomicilio = zonaDomicilio;
-        this.protecciones = protecciones;
-        this.empleo = empleo;
-    }
-}
 
 class posibleAdoptante {
     constructor(nombre, edad, zonaDomicilio, protecciones, empleo){
